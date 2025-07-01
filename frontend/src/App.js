@@ -56,7 +56,9 @@ function App() {
     const formData = new FormData();
     formData.append('file', file);
     try {
-      const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+      const apiUrl = process.env.REACT_APP_API_URL || 'https://project-management-dashboard-w90o.onrender.com';
+      console.log('API URL:', apiUrl);
+      console.log('Sending request to:', `${apiUrl}/dashboard`);
       const res = await fetch(`${apiUrl}/dashboard`, {
         method: 'POST',
         body: formData,
