@@ -5,4 +5,6 @@ openai
 python-dotenv
 fastapi
 uvicorn
-python-multipart 
+python-multipart
+redis>=4.5.0
+redis-om>=0.2.0
