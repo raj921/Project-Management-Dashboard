@@ -6,7 +6,6 @@ import {
 } from '@mui/material';
 import { CloudUpload, Description, Error, Warning, CheckCircle, Assignment, Event } from '@mui/icons-material';
 
-// Create a theme instance
 const theme = createTheme({
   palette: {
     primary: {
